@@ -220,8 +220,8 @@ export default function Hero() {
           </a>
 
           <a
-            href="/Mashiur_Rahaman_Resume.pdf"
-            download="Mashiur_Rahaman_Resume.pdf"
+            href="/Mashiur_Rahaman.pdf"
+            download="Mashiur_Rahaman.pdf"
             className="rounded-xl border border-accent/20 bg-surface/50 px-8 py-3.5 text-sm font-bold uppercase tracking-wider text-white transition-all hover:-translate-y-0.5 hover:border-accent/40 hover:bg-surface"
           >
             Download CV
