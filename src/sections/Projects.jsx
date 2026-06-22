@@ -8,7 +8,7 @@ import { Search, Globe, Github, Info, Cpu, CheckCircle } from 'lucide-react';
 import { fadeInUp, staggerContainer } from '../utils/animations';
 import { useTheme } from '../context/ThemeContext';
 
-const CATEGORIES = ["All", "Web", "Android", "SQA", "Database", "AI"];
+const CATEGORIES = ["All", "Web", "Android", "SQA", "Database", "AI", "UI/UX Design"];
 
 export default function Projects() {
   const { projects } = usePortfolio();

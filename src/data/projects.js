@@ -118,6 +118,41 @@ export const initialProjects = [
 
   {
     id: "project4",
+    title: "University Event Management UI/UX Design",
+    category: "UI/UX Design, Figma",
+    description: "A complete UI/UX prototype designed in Figma for a university assignment, focusing on intuitive navigation, user-centered layouts, and modern interface consistency.",
+    longDescription: "This project is a fully designed UI/UX prototype created in Figma as part of an academic assignment. The design emphasizes usability, accessibility, visual hierarchy, and seamless user interaction. It includes wireframes, interactive prototypes, and structured user flows aimed at creating an efficient and visually appealing digital experience. The project helped strengthen practical knowledge of interface design principles, component consistency, and responsive layout planning.",
+    tags: ["Figma", "UI Design", "UX Research", "Wireframing", "Prototyping", "User Flow", "Design Systems"],
+    githubUrl: "https://www.figma.com/design/ygyRMJ7BHMRlvLsVEhco2s/428-Assignment?t=BSVbUoWsHNP3XvHY-1",
+    liveUrl: "https://www.figma.com/design/ygyRMJ7BHMRlvLsVEhco2s/428-Assignment?t=BSVbUoWsHNP3XvHY-1",
+    features: [
+      "Complete UI/UX Prototype: Designed a full user-centered interface with structured navigation and intuitive interactions.",
+      "Wireframing Process: Built low-fidelity and high-fidelity wireframes to define the design flow.",
+      "Interactive Prototyping: Created clickable prototypes to simulate real user interactions and transitions.",
+      "Visual Hierarchy: Applied spacing, typography, and component alignment for improved readability and accessibility.",
+      "Design System Consistency: Maintained reusable components, colors, and layouts for a unified design language.",
+      "Responsive Layout Planning: Structured screens to adapt across different device sizes and resolutions.",
+      "User Flow Mapping: Planned seamless user journeys to improve usability and interaction efficiency."
+    ],
+    challenges: [
+      "Balancing visual aesthetics with usability while maintaining consistency across multiple screens and ensuring responsive behavior."
+    ],
+    learnings: [
+      "Gained hands-on experience in UI/UX design principles, wireframing, prototyping, user flow planning, accessibility considerations, and maintaining scalable design systems."
+    ],
+    architecture: "The design follows a structured UI/UX workflow: requirement analysis, user flow mapping, low-fidelity wireframing, high-fidelity interface design, component-based design system creation, and interactive prototyping using Figma.",
+    image: "/projects/tripzy.png",
+    screenshots: [
+      "/projects/tripzy1.png",
+      "/projects/tripzy2.png",
+      "/projects/tripzy3.png",
+      "/projects/tripzy4.png",
+      "/projects/tripzy5.png"
+    ]
+  },
+
+  {
+    id: "project5",
     title: "SDN-Intrusion-Detection",
     category: "AI/ML, Cybersecurity",
     description: "A machine learning-based intrusion detection system for Software-Defined Networks (SDN) using the InSDN dataset. The project focuses on detecting malicious network traffic and classifying attacks with high accuracy using multiple supervised learning models.",
@@ -151,7 +186,7 @@ export const initialProjects = [
   },
 
   {
-    id: "project5",
+    id: "project6",
     title: "Overseas Education Consultancy",
     category: "Full Stack, Group Project",
     description: "A full-stack education consultancy management platform designed to streamline student applications, university selection, visa processing, and consultation services for studying abroad.",
@@ -187,7 +222,7 @@ export const initialProjects = [
   },
 
   {
-    id: "project6",
+    id: "project7",
     title: "Smart To-Do List Manager",
     category: "Algorithms, C++",
     description: "A console-based task management system built with C++ that applies core algorithms like KMP, Greedy, and Topological Sorting to optimize task organization, searching, and time allocation.",
@@ -215,7 +250,7 @@ export const initialProjects = [
   },
 
   {
-    id: "project7",
+    id: "project8",
     title: "Restaurant Management System",
     category: "Java, Socket Programming",
     description: "A client-server based restaurant management system built with Java socket programming that simulates real-time order handling, menu management, and customer-service communication.",
@@ -248,7 +283,7 @@ export const initialProjects = [
   },
 
   {
-    id: "project8",
+    id: "project9",
     title: "Cryptocurrency Management System",
     category: "Database, Oracle APEX",
     description: "A full-featured cryptocurrency management web application built using Oracle APEX and Oracle SQL for managing wallets, transactions, currency exchange rates, and user portfolios in a secure and interactive environment.",
