@@ -2,7 +2,7 @@ export const initialExperience = [
    {
     id: "exp-1",
     role: "Software Engineering Undergraduate",
-    company: "Your University Name",
+    company: "East West University",
     duration: "2022 - Present",
     description: "Studying software engineering with focus on web, mobile, SQA, database systems, and AI."
   },
