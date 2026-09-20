@@ -3,10 +3,10 @@ export const educationData = [
     id: "edu-uni",
     institution: "East West University",
     degree: "B.Sc. in Computer Science & Engineering (Major in Software Engineering)",
-    duration: "2022 - Present",
-    grade: "CGPA 3.71 / 4.00",
+    duration: "2022 - 2026",
+    grade: "CGPA 3.73 / 4.00",
     description:
-      "Currently in my final year, specializing in Software Engineering with strong focus on Web Development, Android Development, Software Quality Assurance, Database Systems, and Artificial Intelligence. Worked on multiple academic and personal software projects throughout the journey.",
+      "Completed graduation, specializing in Software Engineering with strong focus on Web Development, Android Development, Software Quality Assurance, Database Systems, and Artificial Intelligence. Worked on multiple academic and personal software projects throughout the journey.",
     location: "Dhaka, Bangladesh"
   },
   {

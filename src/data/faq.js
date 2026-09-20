@@ -9,7 +9,7 @@ export const faqData = [
     id: "faq-2",
     question: "Are you available for internships or freelance work?",
     answer:
-      "Yes. As a final-year Software Engineering student, I am actively looking for internship opportunities, collaborative projects, and freelance work in software development, QA engineering, and blockchain systems."
+      "Yes. As a Software Engineering graduate, I am actively looking for internship/full-time job opportunities, collaborative projects, and freelance work in software development, QA engineering, and blockchain systems."
   },
   {
     id: "faq-3",

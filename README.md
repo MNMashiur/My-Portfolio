@@ -10,7 +10,7 @@ A modern, responsive, and interactive personal portfolio website built to showca
 
 ## About
 
-This portfolio represents my work as a final-year Computer Science & Engineering student specializing in **Software Engineering**, with interests in:
+This portfolio represents my work as a Computer Science & Engineering graduate specializing in **Software Engineering**, with interests in:
 
 * Full Stack Web Development
 * Android Application Development
@@ -142,7 +142,7 @@ Current and upcoming research areas:
 
 **Mashiur Rahaman**
 
-Final-Year CSE Student
+Software Engineering Graduate
 
 East West University, Dhaka
 

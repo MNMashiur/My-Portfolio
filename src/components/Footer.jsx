@@ -31,7 +31,7 @@ export default function Footer() {
               Mashiur<span className="text-accent"> Rahaman</span>
             </h4>
             <p className="mt-2 text-xs text-textSecondary max-w-xs leading-relaxed">
-              Final-year Software Engineering student specializing in Web Development, Android Applications, Blockchain Systems, and Software Quality Assurance. Let’s build secure and impactful solutions together.
+              Software Engineering Graduate specializing in Web Development, Android Applications, Blockchain Systems, and Software Quality Assurance. Let’s build secure and impactful solutions together.
             </p>
             <div className="mt-4 flex items-center gap-4">
               <a
@@ -111,7 +111,7 @@ export default function Footer() {
         {/* Bottom copyright */}
         <div className="mt-8 flex flex-col sm:flex-row items-center justify-between text-center sm:text-left gap-4">
           <p className="text-xs text-textSecondary">
-            &copy; {new Date().getFullYear()} Mashiur Rahaman. All rights reserved. Made with ❤️.
+            &copy; {new Date().getFullYear()} Mashiur Rahaman. All rights reserved. ❤️
           </p>
           <a
             href="/admin"

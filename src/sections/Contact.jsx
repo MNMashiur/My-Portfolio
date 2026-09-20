@@ -104,7 +104,7 @@ export default function Contact() {
                 Open for Opportunities
               </h3>
               <p className="text-sm text-textSecondary leading-relaxed mb-8">
-                I’m currently looking for internship opportunities, collaborative projects, and research work in Software Engineering, Blockchain Development, Software Quality Assurance, and AI/ML.
+                I’m currently looking for internship/full-time job opportunities, collaborative projects, and research work in Software Engineering, Blockchain Development, Software Quality Assurance, and AI/ML.
               </p>
 
               {/* Grid detail entries */}

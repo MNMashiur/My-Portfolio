@@ -33,10 +33,70 @@ export const initialProjects = [
 
   {
     id: "project2",
+    title: "CareQueue",
+    category: "Full Stack, Web",
+    description: "A full-stack clinic appointment and queue management system for patients, doctors, and administrators.",
+
+    longDescription: "CareQueue is a full-stack clinic management system developed during my TechArenaX internship. It enables patient appointment booking, doctor availability management, daily queue tracking, and admin monitoring. Built with React, Node.js, Express.js, MongoDB, and JWT authentication, it includes role-based access, double-booking prevention, queue generation, validation, filtering, pagination, and responsive design.",
+
+    tags: ["React", "Node.js", "Express.js", "MongoDB", "Mongoose", "JWT", "REST API"],
+
+    githubUrl: "https://github.com/MNMashiur/CareQueue",
+
+    liveUrl: "https://carequeue-web.vercel.app/",
+
+    features: [
+      "Role-based authentication for Patients, Doctors, and Admins",
+      "Doctor profiles and availability management",
+      "Doctor search and specialty filtering",
+      "Appointment booking and tracking",
+      "Double-booking prevention",
+      "Automatic daily queue generation",
+      "Appointment status management",
+      "Patient appointment history",
+      "Doctor dashboard and queue management",
+      "Admin dashboard and doctor management",
+      "Appointment filtering and pagination",
+      "Request validation and error handling",
+      "Responsive design"
+    ],
+
+    challenges: [
+      "Implementing JWT authentication and role-based access",
+      "Preventing appointment double-booking",
+      "Building a daily queue management system",
+      "Handling concurrent queue generation",
+      "Managing appointment status transitions",
+      "Connecting frontend with REST APIs",
+      "Deploying and configuring the full-stack application"
+    ],
+
+    learnings: [
+      "REST API development with Node.js and Express.js",
+      "MongoDB and Mongoose",
+      "JWT authentication and authorization",
+      "Role-based application architecture",
+      "Database concurrency and atomic operations",
+      "Appointment and queue management",
+      "API testing with Postman",
+      "Vercel, Render, and MongoDB Atlas deployment",
+      "Responsive frontend development"
+    ],
+    architecture: "Full-stack web application following a layered architecture with a React frontend communicating with a Node.js and Express.js REST API. The backend uses modular routes, controllers, services, and Mongoose models, with MongoDB Atlas as the database. JWT is used for authentication and role-based authorization, while environment variables manage configuration and sensitive credentials. The frontend is deployed on Vercel, the backend on Render, and MongoDB is hosted on MongoDB Atlas.",
+    image: "/projects/CareQueue_MOCKUP.jpeg",
+    screenshots: [
+      "/projects/carequeue1.jpeg",
+      "/projects/carequeue2.jpeg",
+      "/projects/carequeue3.jpeg"
+    ]
+  },
+
+  {
+    id: "project3",
     title: "Portfolio Website",
     category: "Web",
     description: "A modern, responsive developer portfolio built to showcase my skills, projects, technical expertise, and professional journey with interactive animations and customizable themes.",
-    longDescription: "This portfolio website is a fully responsive and interactive web application designed to represent my personal brand as a Software Engineering student and developer. It highlights my expertise in Web Development, Android Development, Software Quality Assurance, AI/ML, and UI/UX design. The portfolio includes sections for my projects, technical skills, testimonials, contact information, and downloadable resume. Built with modern frontend technologies, the application focuses on clean UI design, smooth animations, customizable themes, and optimized user experience. It also integrates local storage for user preferences, dynamic content management using Context API, and reusable modular components to ensure scalability and maintainability.",
+    longDescription: "This portfolio website is a fully responsive and interactive web application designed to represent my personal brand as a Software Engineering graduate and full-stack developer. It highlights my expertise in Web Development, Android Development, Software Quality Assurance, AI/ML, and UI/UX design. The portfolio includes sections for my projects, technical skills, testimonials, contact information, and downloadable resume. Built with modern frontend technologies, the application focuses on clean UI design, smooth animations, customizable themes, and optimized user experience. It also integrates local storage for user preferences, dynamic content management using Context API, and reusable modular components to ensure scalability and maintainability.",
     tags: ["React, Vite, Tailwind CSS, Framer Motion, Context API, JavaScript, LocalStorage"],
     githubUrl: "https://github.com/MNMashiur/My-Portfolio",
     liveUrl: "https://example.com/fittrack",
@@ -84,7 +144,7 @@ export const initialProjects = [
   },
 
   {
-    id: "project3",
+    id: "project4",
     title: "FABIP",
     category: "AI/ML, Research",
     description: "FABIP (Fairness-Aware Bias Impact Pruning) is a machine learning research project focused on reducing algorithmic bias while optimizing neural network efficiency through structured pruning. It introduces a novel fairness-aware pruning framework for responsible AI systems.",
@@ -117,7 +177,7 @@ export const initialProjects = [
   },
 
   {
-    id: "project4",
+    id: "project5",
     title: "University Event Management UI/UX Design",
     category: "UI/UX Design, Figma",
     description: "A complete UI/UX prototype designed in Figma for a university assignment, focusing on intuitive navigation, user-centered layouts, and modern interface consistency.",
@@ -152,7 +212,7 @@ export const initialProjects = [
   },
 
   {
-    id: "project5",
+    id: "project6",
     title: "SDN-Intrusion-Detection",
     category: "AI/ML, Cybersecurity",
     description: "A machine learning-based intrusion detection system for Software-Defined Networks (SDN) using the InSDN dataset. The project focuses on detecting malicious network traffic and classifying attacks with high accuracy using multiple supervised learning models.",
@@ -186,7 +246,7 @@ export const initialProjects = [
   },
 
   {
-    id: "project6",
+    id: "project7",
     title: "Overseas Education Consultancy",
     category: "Full Stack, Group Project",
     description: "A full-stack education consultancy management platform designed to streamline student applications, university selection, visa processing, and consultation services for studying abroad.",
@@ -222,7 +282,7 @@ export const initialProjects = [
   },
 
   {
-    id: "project7",
+    id: "project8",
     title: "Smart To-Do List Manager",
     category: "Algorithms, C++",
     description: "A console-based task management system built with C++ that applies core algorithms like KMP, Greedy, and Topological Sorting to optimize task organization, searching, and time allocation.",
@@ -250,7 +310,7 @@ export const initialProjects = [
   },
 
   {
-    id: "project8",
+    id: "project9",
     title: "Restaurant Management System",
     category: "Java, Socket Programming",
     description: "A client-server based restaurant management system built with Java socket programming that simulates real-time order handling, menu management, and customer-service communication.",
@@ -283,7 +343,7 @@ export const initialProjects = [
   },
 
   {
-    id: "project9",
+    id: "project10",
     title: "Cryptocurrency Management System",
     category: "Database, Oracle APEX",
     description: "A full-featured cryptocurrency management web application built using Oracle APEX and Oracle SQL for managing wallets, transactions, currency exchange rates, and user portfolios in a secure and interactive environment.",

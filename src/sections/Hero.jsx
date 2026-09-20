@@ -15,7 +15,7 @@ export default function Hero() {
     'Android Developer',
     'Exploring SQA Engineering',
     'Exploring Blockchain Technology',
-    'Software Engineering Student',
+    'Software Engineering Graduate',
   ];
 
   const typedText = useTypingEffect(roles, 100, 50, 2000);
@@ -200,7 +200,7 @@ export default function Hero() {
           transition={{ delay: 0.3 }}
           className="mt-6 max-w-2xl text-sm leading-relaxed text-textSecondary md:text-base"
         >
-          A Software Engineering student specializing in Web Development, Android Development, and SQA, focused on creating efficient, user-friendly, and reliable software solutions.
+          A Software Engineering graduate specializing in Web Development, Android Development, and SQA, focused on creating efficient, user-friendly, and reliable software solutions.
         </motion.p>
 
         {/* Action Buttons */}

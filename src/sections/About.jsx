@@ -19,7 +19,7 @@ export default function About() {
   const stats = [
     { label: 'Degree', value: 'B.Sc. Software Engineering', icon: Award, desc: 'Specializing in Web, SQA & Mobile' },
     { label: 'Location', value: 'Dhaka, Bangladesh', icon: MapPin, desc: 'Available for Remote & Hybrid work' },
-    { label: 'Age & Status', value: '23 Years Old', icon: User, desc: 'Last Year Student' },
+    { label: 'Age & Status', value: '23 Years Old', icon: User, desc: 'Software Engineering Graduate' },
   ];
 
   return (
@@ -55,7 +55,7 @@ export default function About() {
                 Building Digital Experiences with Code & Creativity.
               </h3>
               <p className="mb-4">
-                I’m Mashiur Rahaman, a passionate Software Engineering student with a strong interest in Web Development, Android Development, and Software Quality Assurance. I enjoy transforming ideas into real-world applications by combining clean design, efficient code, and reliable functionality.              </p>
+                I’m Mashiur Rahaman, a passionate Software Engineering graduate with a strong interest in Web Development, Android Development, and Software Quality Assurance. I enjoy transforming ideas into real-world applications by combining clean design, efficient code, and reliable functionality.              </p>
               <p className="mb-6">
                 My journey in software development has allowed me to work with modern technologies like React, JavaScript, Tailwind CSS, Java, Android, SQL, and testing frameworks, helping me build responsive web applications, mobile solutions, and robust software systems. Beyond development, I’m deeply interested in software quality, test automation, and improving user experiences through well-structured and maintainable code.              </p>
               <p className="mb-6">

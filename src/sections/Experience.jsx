@@ -1,4 +1,4 @@
-import  { useState } from 'react';
+import { useState } from 'react';
 import SectionTitle from '../components/SectionTitle';
 import TimelineCard from '../components/TimelineCard';
 import { initialExperience } from '../data/experience';
@@ -7,7 +7,7 @@ import { Briefcase } from 'lucide-react';
 
 
 export default function Experience() {
-  
+
   const [experiences] = useState(initialExperience);
 
   return (
@@ -22,7 +22,7 @@ export default function Experience() {
             </div>
             <h4 className="font-outfit text-lg font-bold text-white mb-2">No Experience Logged Yet</h4>
             <p className="text-xs text-textSecondary leading-relaxed">
-              I am currently looking for Software Engineering, Front-End, or SQA internship roles. Contact me below to start a discussion!
+              I am currently looking for Software Engineering, Front-End, or SQA internship/full-time roles. Contact me below to start a discussion!
             </p>
           </div>
         ) : (
@@ -36,14 +36,17 @@ export default function Experience() {
               className="absolute left-4 md:left-1/2 top-0 bottom-0 w-[2px] bg-gradient-to-b from-primary via-secondary to-accent origin-top"
             />
 
-            {experiences.map((exp, idx) => (
-              <TimelineCard
-                key={exp.id}
-                item={exp}
-                type="experience"
-                index={idx}
-              />
-            ))}
+            {experiences
+              .slice()
+              .reverse()
+              .map((exp, idx) => (
+                <TimelineCard
+                  key={exp.id}
+                  item={exp}
+                  type="experience"
+                  index={idx}
+                />
+              ))}
           </div>
         )}
       </div>

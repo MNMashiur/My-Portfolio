@@ -1,5 +1,5 @@
 export const initialExperience = [
-   {
+  {
     id: "exp-1",
     role: "Software Engineering Undergraduate",
     company: "East West University",
@@ -15,16 +15,24 @@ export const initialExperience = [
   },
   {
     id: "exp-3",
+    role: "AI / ML Developer",
+    company: "Research / Personal Projects",
+    duration: "2025 - Present",
+    description: "Built machine learning and data analysis projects using modern AI frameworks."
+  },
+  {
+    id: "exp-4",
     role: "Software Testing & QA Practitioner",
     company: "University Lab / Personal Practice",
     duration: "2026 - Present",
     description: "Worked on unit testing, automation, test case design, and debugging."
   },
   {
-    id: "exp-4",
-    role: "AI / ML Developer",
-    company: "Research / Personal Projects",
-    duration: "2025 - Present",
-    description: "Built machine learning and data analysis projects using modern AI frameworks."
+    id: "exp-5",
+    role: "Backend Developer Intern",
+    company: "TechArenaX",
+    duration: "August 2026 - Present",
+    description:
+      "Working as a Backend Developer Intern, where I successfully completed an individual project and currently serving as Team Lead for a group project, coordinating team members, assigning tasks, monitoring progress, and supporting the team in achieving project goals."
   }
 ];
